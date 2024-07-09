@@ -161,3 +161,31 @@ p{
 .target-content a:hover{
     color: rgb(255, 101, 30);
 }
+
+/* next-target-area */
+.next-target-content{
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    padding: 50px 60px 80px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.next-target-content h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.next-target-content p{
+    margin: 12px 0 24px;
+}
+.next-target-content a{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+.next-target-content a:hover{
+    color: rgb(89, 150, 54);
+}
