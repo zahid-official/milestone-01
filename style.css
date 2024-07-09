@@ -189,3 +189,42 @@ p{
 .next-target-content a:hover{
     color: rgb(89, 150, 54);
 }
+
+/* footer-area starts here */
+.footer-top{
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 16px;
+    padding: 0 70px 130px;
+    background-size: cover;
+    background-position: center;
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.37) , rgba(0, 0, 0, 0.678)), url('assets/2.bg-handshake.jpg');
+}
+.form-area input{
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 8px
+}
+.form-area input[type=text]{
+    width: 40%;
+}
+
+/* footer-bottom */
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 150px;
+    background-color: rgb(247, 248, 248);
+}
+.footer-bottom p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-links ul{
+    gap: 25px;
+    display: flex;
+}
