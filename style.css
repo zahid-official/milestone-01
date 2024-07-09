@@ -14,6 +14,9 @@ img{
 li{
     list-style: none;
 }
+p{
+    line-height: 25px;
+}
 .btn{
     font-size: 20px;
     font-weight: 600;
@@ -62,7 +65,6 @@ li{
 }
 .header-bottom p{
     margin: 25px 0 35px;
-    line-height: 25px;
 }
 .header-bottom button{
     font-size: 20px;
@@ -74,4 +76,41 @@ li{
 .header-bottom button:hover{
     color: rgba(13, 19, 33, 0.801);
     background-color: rgb(240, 240, 240);
+}
+/* main-area starts here */
+.main-area{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(13, 19, 33);
+}
+.development-section{
+    border-radius: 16px;
+    margin: 100px 0 20px;
+    padding: 20px 0 70px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.section-title{
+    padding: 120px 0 70px;
+    text-align: center;
+}
+.section-title h3{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+/* development-area */
+.development-content{
+    padding: 20px 50px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-details h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.content-details p{
+    margin: 30px 0;
 }
