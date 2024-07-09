@@ -192,12 +192,12 @@ p{
 
 /* footer-area starts here */
 .footer-top{
-    width: 80%;
+    width: 70%;
     color: white;
     text-align: center;
     margin: 100px auto;
     border-radius: 16px;
-    padding: 0 70px 130px;
+    padding: 0 90px 130px;
     background-size: cover;
     background-position: center;
     background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.37) , rgba(0, 0, 0, 0.678)), url('assets/2.bg-handshake.jpg');
