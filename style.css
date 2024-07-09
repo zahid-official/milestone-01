@@ -18,7 +18,61 @@ a{
     text-decoration: none;
 }
 .btn{
-    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    color: rgba(13, 19, 33, 0.801);
+    border: 1px solid rgb(13, 19, 33);
+}
+.btn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
 }
 
 /* header-area starts here*/
+.header-top{
+    padding: 35px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.header-resume button{
+    border-radius: 8px;
+}
+
+/* header-bottom */
+.header-bottom{
+    padding: 90px 0;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    background-image: url('assets/1.bg-hero.png');
+}
+.header-profile{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.header-bottom h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+.header-bottom p{
+    margin: 30px 0;
+}
+.header-bottom button{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(13, 19, 33);
+}
+.header-bottom button:hover{
+    color: rgba(13, 19, 33, 0.801);
+    background-color: rgb(240, 240, 240);
+}
