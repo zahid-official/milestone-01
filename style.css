@@ -125,3 +125,39 @@ p{
     width: 100%;
     border-radius: 16px;
 }
+
+/* target-area */
+.target-area{
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.target-content{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-content2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-content3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-content h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+.target-content p{
+    margin: 12px 0 24px;
+}
+.target-content a{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+.target-content a:hover{
+    color: rgb(255, 101, 30);
+}
